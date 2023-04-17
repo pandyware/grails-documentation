@@ -15,11 +15,11 @@ application in production you need to keep your project updated.
 
 1. Update your gradle version in `gradle/wrapper/gradle-wrapper.properties`, Grails 5 is using **Gradle 7.2 and later**
    `distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-bin.zip` also you can run this command `./gradlew wrapper --gradle-version 7.2`
-
+<br><br>
 2. Update your grailsVersion, gorm.version and groovyVersion in your `gradle.properties` <br> `grailsVersion=5.2.0` <br>
    `groovyVersion=3.0.7` <br> `gorm.version=7.2.0`
-
+<br><br>
 3. Update your `views-gradle` should be like this `"org.grails.plugins:views-gradle:2.3.2"`
-[index.md](index.md)
+<br><br>
 4. In your `build.gradle` you need to use `implementation` instead of `compile`, `providedRuntime` instead of `provided`,
    `runtimeOnly` instead of `runtime`, `testImplementation` instead of `testCompile`
