@@ -11,7 +11,7 @@ application in production you need to keep your project updated.
 - Grails 5 it's the most recent version of the framework, so provides an easy way to update to futures versions.
 
 
-# Steps to updagrade to Grails 5
+# Steps to upgrade to Grails 5
 
 1. Update your gradle version in `gradle/wrapper/gradle-wrapper.properties`, Grails 5 is using **Gradle 7.2 and later**
    `distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-bin.zip` also you can run this command `./gradlew wrapper --gradle-version 7.2`
