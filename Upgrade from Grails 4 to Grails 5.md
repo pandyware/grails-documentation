@@ -20,6 +20,6 @@ application in production you need to keep your project updated.
    `groovyVersion=3.0.7` <br> `gorm.version=7.2.0`
 
 3. Update your `views-gradle` should be like this `"org.grails.plugins:views-gradle:2.3.2"`
-
+[index.md](index.md)
 4. In your `build.gradle` you need to use `implementation` instead of `compile`, `providedRuntime` instead of `provided`,
    `runtimeOnly` instead of `runtime`, `testImplementation` instead of `testCompile`
